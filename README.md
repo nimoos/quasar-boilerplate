@@ -1,4 +1,4 @@
-# Sample Project (edtech-sample)
+# Simpe Crud with Vue.js (Quasar framework) and Desxie.js 
 
 A Quasar Framework app
 
