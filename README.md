@@ -1,4 +1,4 @@
-# Simpe Crud with Vue.js (Quasar framework) and Desxie.js 
+# Simple CRUD with Vue.js (Quasar framework) and Desxie.js 
 
 A Quasar Framework app
 
