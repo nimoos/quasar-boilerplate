@@ -103,7 +103,7 @@
     data() {
       return {
         tab: 'basic',
-        step:3,
+        step:1,
         parentInfo: {
           name: null,
           email: null

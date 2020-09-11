@@ -11,6 +11,7 @@ const routes = [
   },
   {
     path:'/',
+    redirect:'/account',
     component: () => import('layouts/RegisterLayout.vue'),
     children:[
       { path: 'register', component: () => import('pages/Register.vue') },

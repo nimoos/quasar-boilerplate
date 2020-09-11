@@ -32,6 +32,14 @@
           <q-item-label header>
             Other Pages
           </q-item-label>
+          <q-item clickable to="/register">
+            <q-item-section side>
+              <q-icon name="how_to_reg"></q-icon>
+            </q-item-section>
+            <q-item-section>
+              Register
+            </q-item-section>
+          </q-item>
           <q-item clickable to="/admin/classes">
             <q-item-section side>
               <q-icon name="class"></q-icon>

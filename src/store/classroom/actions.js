@@ -17,6 +17,7 @@ export function createParent(context, {data}) {
   return new Promise((resolve, reject) => {
     return db.transaction('rw', db.parents, function () {
       let insert_object = {name: data.name, email: data.email};
+      console.log('a')
       db.parents.add(insert_object);
       resolve()
     }).catch(function (err) {
