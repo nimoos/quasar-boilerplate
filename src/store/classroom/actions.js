@@ -1,7 +1,25 @@
 import {db} from '../../boot/db'
 import {Notify} from 'quasar'
+import {axiosInstance} from 'boot/axios'
 
 export function getAll(context) {
+
+
+  // below is the sample code to call api requests from API
+
+  // return new Promise((resolve, reject) => {
+  //   return axiosInstance.get('/classes').then(function (response) {
+  //     context.commit('setClassOptions', response.data.data)
+  //     resolve()
+  //   }).catch(function (error) {
+  //     if (error.response) {
+  //       Notify.create({color: 'negative', message: error.response.data.message})
+  //     } else {
+  //       Notify.create({color: 'negative', message: 'something happened, try again'})
+  //     }
+  //     reject()
+  //   })
+  // })
   db.classes.toArray().then((row) => {
     context.commit('setClassOptions', row)
   })
