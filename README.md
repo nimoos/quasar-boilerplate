@@ -1,8 +1,12 @@
 # Simple CRUD with Vue.js (Quasar framework) and Desxie.js 
 
-A Quasar Framework app
+A Quasar Framework app . it includes : 
+- vuex
+- dexie
+- axios
+instead of using axios that calls api repquests from server, dexie.js is used to show how data flow in vuex works.
 
-## Install the dependencies
+o## Install the dependencies
 ```bash
 yarn
 ```
