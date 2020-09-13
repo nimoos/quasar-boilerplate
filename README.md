@@ -6,7 +6,7 @@ A Quasar Framework app . it includes :
 - axios
 instead of using axios that calls api repquests from server, dexie.js is used to show how data flow in vuex works.
 
-o## Install the dependencies
+## Install the dependencies
 ```bash
 yarn
 ```
